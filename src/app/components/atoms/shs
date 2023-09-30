@@ -1,0 +1,35 @@
+import React, { useState } from "react";
+import { CaretDownOutlined } from "@ant-design/icons";
+import { Select, ConfigProvider } from "antd";
+import Role from "./Role";
+
+const OPTIONS = [
+  // ... (unchanged)
+];
+
+const OptionList: React.FC = () => {
+  const [selectedItems, setSelectedItems] = useState<string[]>([]);
+  const [isDropdownOpen, setDropdownOpen] = useState<boolean>(false);
+
+  const filteredOptions = OPTIONS.filter((o) => !selectedItems.includes(o));
+
+  return (
+    <ConfigProvider
+      theme={{
+        components: {
+          Select: {
+            fontSize: 12,
+            optionPadding: "8px 12px",
+          },
+        },
+      }}
+    >
+      <div 
+        className="flex justify-between items-center cursor-pointer" 
+        onClick={() => setDropdownOpen(!isDropdownOpen)}
+      >
+        <Role />
+        <Select
+          className="customSelect"
+          placeholder="Opportunity browsing"
+          suffix
