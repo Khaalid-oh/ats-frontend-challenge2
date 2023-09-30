@@ -24,7 +24,7 @@ const sideItem = [
 ];
 
 
-function SideBar() {
+function SideNav() {
   return (
     <div className="h-screen w-16 flex flex-col items-center bg-white shadow-lg gap-5 pt-4 ">
       {sideItem.map((navItem, i) => (
@@ -45,4 +45,4 @@ function SideBar() {
   );
 } 
 
-export default SideBar;
+export default SideNav;
