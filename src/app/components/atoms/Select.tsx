@@ -2,6 +2,7 @@ import Carret from "@/app/resources/Carret";
 import React, { useState } from "react";
 import clsx from "clsx";
 
+
 const Select = ({
   options,
 }: {
@@ -38,7 +39,7 @@ const Select = ({
       </>
       <div
         className={clsx(
-          "absolute top-14 w-full left-0 cursor-pointer transition-all duration-150 transform origin-top",
+          "absolute top-14 w-full left-0 cursor-pointer transition-all duration-150 transform origin-top z-50",
           toggleList
             ? "opacity-100 scale-100"
             : "opacity-0 scale-95 cursor-none pointer-events-none"

@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.ant-select-single .ant-select-selector .ant-select-selection-placeholder {
-  color: black;
-}
-
-.ant-select-selection-placeholder,
-.ant-select-selection-search-input {
-  transition: none !important;
-}
 
 .before-stroke {
   @apply before:absolute before:content-[''] before:h-4 before:bg-bg-1 before:w-[0.15rem] before:left-0 before:top-1;
@@ -17,4 +9,8 @@
 
 .after-stroke {
   @apply before:absolute before:content-[''] before:h-4 before:bg-bg-1 before:w-[0.15rem] before:right-0 before:top-2;
+}
+
+.no-after::after {
+  content: none;
 }
