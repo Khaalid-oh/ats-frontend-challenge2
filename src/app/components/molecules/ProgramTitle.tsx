@@ -1,12 +1,12 @@
-import React from 'react'
-import OptionList from '../atoms/OptionList'
+import React from "react";
+import OptionList from "../atoms/OptionList";
 
 function ProgramTitle() {
   return (
-    <div>
-      <OptionList/>
+    <div className="w-full">
+      <OptionList />
     </div>
-  )
+  );
 }
 
-export default ProgramTitle
+export default ProgramTitle;

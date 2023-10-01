@@ -2,7 +2,7 @@ import React from 'react'
 
 function Role() {
   return (
-    <div className='flex items-center justify-center rounded-full w-7 h-7 bg-blue-100 text-gray-700 text-xs'>
+    <div className='flex items-center justify-center rounded-full w-7 h-7 bg-gray-100 text-gray-700 text-xs'>
       SIP
     </div>
   )
