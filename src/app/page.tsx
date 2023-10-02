@@ -7,7 +7,7 @@ import NanCandidate from "./components/molecules/NanCandidate";
 
 
 function App() {
-  const [activeCandidate, setActiveCandidate] = useState<number | null>(null);
+  const [activeCandidate, setActiveCandidate] = useState<number | null>(1);
 
   return (
     <div className="flex h-screen overflow-hidden bg-blue-50">

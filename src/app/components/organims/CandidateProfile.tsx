@@ -1,9 +1,12 @@
 import React from 'react'
+import Profile from '../molecules/Profile'
+import Tab from './Tab'
 
 function CandidateProfile() {
   return (
-    <div className='bg-blue-100 h-screen w-full'>
-      
+    <div className='h-screen'>
+      <Profile/>
+      <Tab/>
     </div>
   )
 }
