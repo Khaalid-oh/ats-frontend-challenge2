@@ -17,7 +17,7 @@ function App() {
           setActiveCandidate={setActiveCandidate}
           activeCandidate={activeCandidate}
         />
-        <div className="Candidate profile bg-red-700 w-full">
+        <div className="w-full transition-all">
           {activeCandidate === 1 ? <CandidateProfile /> : <NanCandidate />}
         </div>
       </div>

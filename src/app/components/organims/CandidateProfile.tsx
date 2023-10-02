@@ -2,8 +2,8 @@ import React from 'react'
 
 function CandidateProfile() {
   return (
-    <div className='bg-red-200 h-screen w-full'>
-      Aliyah Anderson
+    <div className='bg-blue-100 h-screen w-full'>
+      
     </div>
   )
 }

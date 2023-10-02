@@ -83,7 +83,7 @@ function Qualified({ setActiveCandidate, activeCandidate }: QualifiedBarProps) {
             </div>
             <div
               onClick={() => setActiveCandidate(i)}
-              className={`flex items-center gap-2 transition-colors rounded-md  p-2 my-3 w-full ${
+              className={`flex items-center gap-2 transition-all rounded-md  p-2 my-3 w-full ${
                 activeCandidate === i ? "bg-blue-50" : ""
               }`}
             >
