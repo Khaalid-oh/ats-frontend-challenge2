@@ -8,7 +8,7 @@ function Search() {
 
 
   return (
-    <div className="flex justify-between w-1/3 text-sm gap-2">
+    <div className="flex justify-between w-full text-sm gap-2">
       <div
         className={`flex items-center justify-between w-full px-4 bg-white rounded-md ${
           isFocused ? "ring-2 ring-blue-500" : ""

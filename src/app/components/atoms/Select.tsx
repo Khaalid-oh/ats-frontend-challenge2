@@ -18,7 +18,7 @@ const Select = ({
 
   return (
     <div
-      className="grid grid-cols-[0.2fr_1fr_0.25fr_0.05fr] items-center w-1/3 bg-white py-2 px-4 rounded-md text-label relative text-sm"
+      className="grid grid-cols-[0.2fr_1fr_0.25fr_0.05fr] items-center w-full bg-white py-2 px-4 rounded-md text-label relative text-sm"
       onClick={handleToggleList}
     >
       <>
