@@ -5,9 +5,6 @@ function DetailCard() {
   return (
     <div className="w-full h-screen">
       <PersonalInformation />
-      <PersonalInformation />
-      <PersonalInformation />
-      <PersonalInformation />
     </div>
   );
 }

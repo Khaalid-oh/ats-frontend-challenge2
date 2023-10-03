@@ -1,7 +1,7 @@
 import React from 'react'
 import UserIcon from "@/app/resources/UserIcon";
 
-function CardFrame() {
+function UserFrame() {
   return (
     <div className="flex gap-2 items-center">
       <div className="bg-white flex items-center justify-center border-[1px] rounded-md h-7  w-7">
@@ -16,4 +16,4 @@ function CardFrame() {
   );
 }
 
-export default CardFrame
+export default UserFrame;

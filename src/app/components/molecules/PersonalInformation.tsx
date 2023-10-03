@@ -1,6 +1,6 @@
 import UserIcon from '@/app/resources/UserIcon';
 import React from 'react'
-import CardFrame from '../atoms/CardFrame';
+import UserFrame from '../atoms/UserFrame';
 
 function PersonalInformation() {
   return (
@@ -8,12 +8,12 @@ function PersonalInformation() {
       <div className="font-[500]">Personal Information</div>
       <div className="flex flex-col gap-10">
         <div className="flex w-[70%] justify-between">
-          <CardFrame />
-          <CardFrame />
+          <UserFrame />
+          <UserFrame />
         </div>
         <div className="flex w-[70%] justify-between">
-          <CardFrame />
-          <CardFrame />
+          <UserFrame />
+          <UserFrame />
         </div>
       </div>
     </div>
