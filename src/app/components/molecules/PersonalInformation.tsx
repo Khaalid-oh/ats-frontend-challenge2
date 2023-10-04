@@ -15,7 +15,10 @@ function PersonalInformation() {
 
       <CardFrame title="Education">
         <div className='flex items-center gap-x-4'>
+          <div className="bg-white flex items-center justify-center border-[1px] rounded-md h-7  w-7">
+
           <Education /> 
+          </div>
           <div className='flex flex-col gap-y-4'>
             <span className="font-[500]">Bachelor in Chemistry</span>
             <div className="text-sm flex  gap-4">
