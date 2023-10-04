@@ -72,7 +72,7 @@ function Qualified({ setActiveCandidate, activeCandidate }: QualifiedBarProps) {
         {qualifiedCandidate.map((candidate, i) => (
           <div
             className={`flex items-center first:border-t-0 gap-4 border-t-[1px] px-4 ${
-              activeCandidate === i ? "border-t-[0px]" : ""
+              activeCandidate === i ? " border-0 border-t-[0px]" : ""
             }`}
             key={"Qualified" + candidate + i}
           >
