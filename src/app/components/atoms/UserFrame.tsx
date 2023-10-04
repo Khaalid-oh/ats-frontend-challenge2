@@ -6,7 +6,7 @@ import DateIcon from "@/app/resources/DateIcon";
 
 function UserFrame() {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-6">
       <div className="flex justify-between w-[65%]">
         <div className="flex items-center gap-4">
           <div className="bg-white flex items-center justify-center border-[1px] rounded-md h-7 w-7">
